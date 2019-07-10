@@ -1,0 +1,33 @@
+{
+  "name": "freeforexapi",
+  "version": "1.0.0",
+  "description": "Free forex ticker api because 1forge charges now...",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottie/freeforexapi.git"
+  },
+  "keywords": [
+    "1forge",
+    "freeforexapi",
+    "forex",
+    "ticker",
+    "trade"
+  ],
+  "author": "Scott Lindh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottie/freeforexapi/issues"
+  },
+  "homepage": "https://github.com/scottie/freeforexapi#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "random-useragent": "^0.3.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  }
+}
